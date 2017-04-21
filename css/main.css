@@ -1,0 +1,277 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #777;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: rgb(191, 54, 12);
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Fit to page - the standard way */
+body{
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+
+    background-color: rgb(191, 54, 12);
+    color: #FF5C2A;
+    font-size: 1.3rem;
+}
+
+header{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header h1{
+    
+    font-size: 2rem;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+
+
+.button{
+    outline: 0;
+    border:2px solid #ffad41;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1rem;
+    font-family:helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration:none; 
+    display:inline-block;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+    color: #FF5C2A;
+    background-color: #ffc579; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
+    background-image: -webkit-linear-gradient(top, #ffc579, #fb9d23);
+    background-image: -moz-linear-gradient(top, #ffc579, #fb9d23);
+    background-image: -ms-linear-gradient(top, #ffc579, #fb9d23);
+    background-image: -o-linear-gradient(top, #ffc579, #fb9d23);
+    background-image: linear-gradient(to bottom, #ffc579, #fb9d23);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+
+
+.button:hover{
+    border:1px solid #ff9913;
+    background-color: #ffaf46; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffaf46), to(#e78404));
+    background-image: -webkit-linear-gradient(top, #ffaf46, #e78404);
+    background-image: -moz-linear-gradient(top, #ffaf46, #e78404);
+    background-image: -ms-linear-gradient(top, #ffaf46, #e78404);
+    background-image: -o-linear-gradient(top, #ffaf46, #e78404);
+    background-image: linear-gradient(to bottom, #ffaf46, #e78404);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
+}
+
+
+
+main input{
+  outline: none;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ff9913;
+  border-radius: 2rem 2rem 2rem 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(114, 41, 19);
+  text-align: center;
+  height: 4rem;
+  color: #ff9913;
+}
+
+
+main label{
+    color: #ff9913;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
