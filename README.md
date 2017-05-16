@@ -1,7 +1,7 @@
 # wikipediaViewer
 Build a CodePen.io app that is [functionally similar to this](https://codepen.io/FreeCodeCamp/full/wGqEga/)
 
-My solution oat [CodePen](http://codepen.io/tom_o/pen/pPZrqG)
+My solution hosted at [CodePen](http://codepen.io/tom_o/pen/pPZrqG)
 
 Also please click on any of the images below to go to the Github hosted version
 
