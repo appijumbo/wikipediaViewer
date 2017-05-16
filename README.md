@@ -1,12 +1,13 @@
 # wikipediaViewer
-Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/.
+Build a CodePen.io app that is [functionally similar to this](https://codepen.io/FreeCodeCamp/full/wGqEga/)
 
 click on any of the images below to go to the Wikipedia Viewer on Github
 
 You can enter a general search term or click the random search button
+
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="800"></a>
 
-And ff you enter a search then a list of 10 pages is produced
+if you enter a search then a list of 10 pages is produced
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="800"></a>
 
