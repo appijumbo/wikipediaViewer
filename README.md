@@ -28,7 +28,7 @@ Hint #3: Use this [link](https://en.wikipedia.org/wiki/Special:ApiSandbox#action
 ----
 
 ## Solution
-enter a general search term or click the random search button
+enter a general search term for example 'bbc' or click the random search button
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="600"></a>
 
