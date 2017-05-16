@@ -1,2 +1,32 @@
 # wikipediaViewer
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/.
+
+click on any of the images below to go to the Wikipedia Viewer on Github
+
+You can enter a general search term or click the random search button
+<a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="800"></a>
+
+And ff you enter a search then a list of 10 pages is produced
+
+<a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="800"></a>
+
+
+This is also at [CodePen.io](http://codepen.io/tom_o/pen/LGoYyW)
+
+## Brief:
+
+Objective: Build a CodePen.io app that is [functionally similar to this](https://codepen.io/FreeCodeCamp/full/wGqEga/)
+
+Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+
+User Story: 
+I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+
+I can click a button to see a random Wikipedia entry.
+
+Hint #1: [Here's a URL you can use to get a random Wikipedia article]( https://en.wikipedia.org/wiki/Special:Random)
+
+Hint #2: [Here's an entry on using Wikipedia's API](https://www.mediawiki.org/wiki/API:Main_page)
+
+Hint #3: Use this [link](https://en.wikipedia.org/wiki/Special:ApiSandbox#action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=jsonfm) to experiment with Wikipedia's API.
+
