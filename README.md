@@ -12,7 +12,7 @@ if you enter a search then a list of 10 pages is produced
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="800"></a>
 
 
-This is also at [CodePen.io](http://codepen.io/tom_o/pen/LGoYyW)
+This is also at [CodePen.io](http://codepen.io/tom_o/pen/pPZrqG)
 
 ## Brief:
 
