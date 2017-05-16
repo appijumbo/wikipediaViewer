@@ -28,11 +28,11 @@ Hint #3: Use this [link](https://en.wikipedia.org/wiki/Special:ApiSandbox#action
 ----
 
 ## Solution
-#### You can enter a general search term or click the random search button
+enter a general search term or click the random search button
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="600"></a>
 
-####if you enter a search then a list of 10 pages is produced
+a list of 10 pages is then produced
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="600"></a>
 
