@@ -6,6 +6,9 @@ My solution oat [CodePen](http://codepen.io/tom_o/pen/pPZrqG)
 Also please click on any of the images below to go to the Github hosted version
 
 
+
+----
+
 You can enter a general search term or click the random search button
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="800"></a>
