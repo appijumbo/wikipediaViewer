@@ -32,7 +32,7 @@ enter a general search term for example 'bbc' or click the random search button
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="600"></a>
 
-a list of 10 pages is then produced
+a list of 10 clickable links is then produced
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="600"></a>
 
