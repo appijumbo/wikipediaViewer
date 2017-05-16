@@ -70,10 +70,18 @@ body{
 
 header{
     padding-top: 10vh;
+    padding-bottom: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
+
+.hide {
+    display: none;
+}
+
+
 
 header h1{
     
@@ -86,7 +94,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 15vh;
+    padding-top: 2vh;
 }
 
 
@@ -127,6 +135,10 @@ main{
 }
 
 
+.button.withList{
+    margin: 0;
+    padding: 0;
+}
 
 main input{
   outline: none;
@@ -147,6 +159,39 @@ main label{
     color: #ff9913;
 }
 
+ul{
+    list-style-type: none;
+    color: #ff9913;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+li{
+    background: rgb(114, 41, 19);
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1rem;
+}
+
+
+ul li a{
+    color: #ff9913;
+    text-decoration: none;
+}
+
+
+
+li:hover,
+li:active,
+li:focus{
+    
+    border-top:0px solid #ff9913;
+    border-right:0px solid #ff9913;
+    border-bottom:0px solid #ff9913;
+    border-left:10px solid #ff9913;
+}
 
 
 /* ==========================================================================
