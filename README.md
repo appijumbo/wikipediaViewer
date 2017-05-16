@@ -1,7 +1,10 @@
 # wikipediaViewer
 Build a CodePen.io app that is [functionally similar to this](https://codepen.io/FreeCodeCamp/full/wGqEga/)
 
-click on any of the images below to go to the Wikipedia Viewer on Github
+My solution oat [CodePen](http://codepen.io/tom_o/pen/pPZrqG)
+
+Also please click on any of the images below to go to the Github hosted version
+
 
 You can enter a general search term or click the random search button
 
@@ -11,8 +14,6 @@ if you enter a search then a list of 10 pages is produced
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="800"></a>
 
-
-This is also at [CodePen.io](http://codepen.io/tom_o/pen/pPZrqG)
 
 ## Brief:
 
