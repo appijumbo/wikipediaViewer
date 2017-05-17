@@ -28,6 +28,7 @@ Hint #3: Use this [link](https://en.wikipedia.org/wiki/Special:ApiSandbox#action
 ----
 
 ## Solution
+
 enter a general search term for example 'bbc' or click the random search button
 
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_1.png" width="600"></a>
@@ -37,3 +38,16 @@ a list of 10 clickable links is then produced
 <a href="https://appijumbo.github.io/wikipediaViewer/"><img src="./githubInfo/wikiview_2.png" width="600"></a>
 
 
+----
+
+## Issues
+
+  * realising I could use jquery 'append'
+
+  * scoping the ajax correctly. 
+
+  * could have used some templating as there is HTML in the JavaScript but its a small piece of code.
+
+  * used the "event.keyCode==13" for input as in the demo but Im not sure if this was strictly necessary.
+
+  * would idealy have liked more ajax code re-use; a future tidy-up maybe.
